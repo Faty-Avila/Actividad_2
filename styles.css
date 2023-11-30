@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    background-image: linear-gradient(#7B9F35, #226666);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+   /* Contenedor del control (background vino) */
+.control-container {
+    background-color: #751618;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+  
+  
+.controls-wrapper {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  }
+
+  .puzzle-container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    border: 1px solid #602f2f;
+    background-color: #cf7474;
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ded2d2;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+  }
+
+/* Pieza del rompecabezas */
+.puzzle-piece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c96565;
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #ded2d2;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+
+
+    .start-button {
+        background-color: rgb(255, 213, 5);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: 1px solid #ded2d2;
+        outline: none;
+        cursor: pointer;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+        padding: 8px;
+      }
+    
+      
+
+  .start-button:hover {
+    background-color: #a0455d;
+  }
+
+  #movimientos,
+  #tiempo {
+    color: yellow;
+    font-size: 18px;
+  }
